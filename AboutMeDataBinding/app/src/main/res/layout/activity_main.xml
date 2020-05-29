@@ -64,6 +64,14 @@ limitations under the License. -->
             android:text="@string/done"
             android:textAlignment="center" />
 
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/NameStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@={myName.nickname}" />
+
         <ImageView
             android:id="@+id/star_image"
             android:layout_width="match_parent"
@@ -87,5 +95,6 @@ limitations under the License. -->
                 android:textAppearance="@style/NameStyle" />
 
         </ScrollView>
+
     </LinearLayout>
 </layout>
